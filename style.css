@@ -7,4 +7,39 @@
 ]
 body{
     margin: 0;
-    font-family: ´
+    font-family: ´Segoe UI`, sans-serif;
+    backgroud-color:
+var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* Estiliza o cabeçalho */
+head{
+    background-color:
+var(--cor-cabecalho);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*Área principal do conteúdo */ 
+main{
+    padding: 20px;
+    text-align: justify;
+}
+
+/*Rodapé com assinatura */
+footer{
+    background-color: 
+var (--cor-rodape);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+
